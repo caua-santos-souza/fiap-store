@@ -1,0 +1,64 @@
+
+
+.detalhes-do-produto {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+    min-height: 100vh; 
+}
+
+.detalhes-do-produto .produto-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.detalhes-do-produto img {
+    width: 500px; 
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; 
+}
+
+.info-produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo dentro da coluna */
+}
+
+.controle-quantidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espaço abaixo dos botões de quantidade */
+}
+
+.controle-quantidade button {
+    background-color: #e92d63;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.controle-quantidade button:disabled {
+    background-color: #ccc; /* Cor cinza para o botão desabilitado */
+    cursor: not-allowed; /* Muda o cursor para indicar que não está disponível */
+}
+
+.controle-quantidade span {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.adicionar-carrinho {
+    background-color: #e92d63;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
